@@ -32,6 +32,9 @@ where A, B and C are Non-terminals and a is a Terminal
 
 ### Running the script
 In order to run the script on a string STRING and a grammar GRAMMAR simply type:
-```validator.py --grammar GRAMMAR STRING```
+```
+validator.py --grammar GRAMMAR STRING
+```
+Note that STRING can also be a text file.
 Adding a `-v` flag will also validate the grammar file itself -- pretty cool, huh :)
-Also note that STRING can also be a text file.
+
