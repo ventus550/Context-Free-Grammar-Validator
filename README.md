@@ -1,10 +1,10 @@
 # Context-Free-Grammar-Validator
-This is a validator for context-free grammar in chomsky normal form only.
+This is a validator for the context-free grammar in chomsky normal form only.
 It checks whether a string is valid under a given grammar that is whether said string can be derived from the set of production rules defined in the grammar file.
 
 
 ### Context-free Grammar
-Grammar is a set of production rules described using symbols and an transformation operator (->).
+Grammar is a set of production rules described using symbols and a transformation operator (->).
 We can divide symbols into two groups: terminals which are the symbols that make a string and non-terminals which do not.
 To check the validity of a string we verify if it can be derived from the set of production rules.
 For example string "aaabbb" is valid under these production rules but "ababab" is not:
