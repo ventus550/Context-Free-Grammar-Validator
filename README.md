@@ -27,6 +27,7 @@ where *A*, *B* and *C* are *Non-terminals* and *a* is a *Terminal*
 ### Some technical details
 - Rules have to be placed in separate lines or be separated by spaces
 - Spaces before and after "->" operator are mandatory
+- The first symbol in the grammar file is implicitly assumed to be the origin
 - `~` is a reserved character and serves the purpose of an arbitrary symbol (for example `A -> ~` means A can be transformed into any other symbol)
 - `E -> {a,b,c}` is a syntactic sugar for `E -> a  E -> b E -> c` 
 
