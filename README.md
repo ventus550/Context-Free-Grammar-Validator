@@ -28,7 +28,7 @@ where *A*, *B* and *C* are *Non-terminals* and *a* is a *Terminal*
 - Rules have to be placed in separate lines or be separated by spaces
 - Spaces before and after "->" operator are mandatory
 - `~` is reserved for serving the purpose of an arbitrary symbol (for example `A -> ~` means A can be transformed into any other symbol)
-- `E -> {a, b, c}` is a syntactic sugar for `E -> a  E -> b E -> c` 
+- `E -> {a,b,c}` is a syntactic sugar for `E -> a  E -> b E -> c` 
 
 
 ### Running the script
