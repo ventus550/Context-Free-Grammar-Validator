@@ -116,12 +116,12 @@ def validate(string, grammar):
 				print("<grammar is valid>")
 				print()
 			else:
-				raise Exception("Grammar is invalid!")
+				raise Exception("Grammar is not valid!")
 
 	
 	return valid(string)
 
 
 # Driver code
-valid = "valid" if validate(*get_input()) else "invalid"
+valid = "valid" if validate(*get_input()) else "not valid"
 print( f"String is {valid}" )
