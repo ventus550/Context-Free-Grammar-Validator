@@ -16,7 +16,7 @@ We can easily check this by applying the first rule twice and the second rule on
 But there is no way to produce "ababab".
 
 
-### Chomsky norml form
+### Chomsky normal form
 A context-free grammar is said to be in Chomsky normal form when all of it production rules are fo the form:
 - A -> BC
 - A -> a
