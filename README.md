@@ -5,14 +5,14 @@ It checks whether a string is valid under a given grammar -- that is whether sai
 
 ### Context-free Grammar
 Grammar is a set of production rules described using symbols and a transformation operator (->).
-We can divide symbols into two groups: terminals which are the symbols that make a string and non-terminals which do not.
+We can divide symbols into two groups: Terminals which are the symbols that make a string and Non-terminals which do not.
 To check the validity of a string we verify if it can be derived from the set of production rules.
 For example string "aaabbb" is valid under these production rules but "ababab" is not:
 ```
 E -> aEb
 E -> ab
 ```
-We can easily check this by applying the first rules twice and the second rule once.
+We can easily check this by applying the first rule twice and the second rule once.
 But there is no way to produce "ababab".
 
 
