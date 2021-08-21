@@ -20,6 +20,7 @@ But there is no way to produce "ababab".
 A context-free grammar is said to be in Chomsky normal form when all of its production rules are of the form:
 - *A* -> *BC*
 - *A* -> *a*
+
 where *A*, *B* and *C* are *Non-terminals* and *a* is a *Terminal*
 
 
