@@ -5,7 +5,7 @@ It checks whether a string is valid under a given grammar -- that is, whether sa
 
 ### Context-free Grammar
 Grammar is a set of production rules described using symbols and a transformation operator (->).
-We can divide symbols into two groups: Terminals which are the symbols that make a string and Non-terminals which do not.
+We can divide symbols into two groups: *Terminals* which are the symbols that make up a string and *Non-terminals* which do not.
 To check the validity of a string we verify if it can be derived from the set of production rules.
 For example string "aaabbb" is valid under these production rules but "ababab" is not:
 ```
@@ -20,7 +20,7 @@ But there is no way to produce "ababab".
 A context-free grammar is said to be in Chomsky normal form when all of its production rules are of the form:
 - A -> BC
 - A -> a
-where A, B and C are Non-terminals and a is a Terminal
+where $A$, $B$ and $C$ are *Non-terminals* and $a$ is a *Terminal*
 
 
 ### Some extra details
