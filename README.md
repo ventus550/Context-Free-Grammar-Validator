@@ -1,6 +1,6 @@
 # Context-Free-Grammar-Validator
 This is a validator for the context-free grammar in chomsky normal form only.
-It checks whether a string is valid under a given grammar -- that is whether said string can be derived from the set of production rules defined in the grammar file.
+It checks whether a string is valid under a given grammar -- that is, whether said string can be derived from the set of production rules defined in the grammar file.
 
 
 ### Context-free Grammar
