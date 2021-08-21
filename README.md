@@ -4,7 +4,7 @@ It checks whether a string is valid under a given grammar -- that is, whether sa
 
 
 ### Context-free Grammar
-Grammar is a set of production rules described using symbols and a transformation operator (->).
+Grammar is a set of production rules described using symbols and a transformation operator "->".
 We can divide symbols into two groups: *Terminals* which are the symbols that make up a string and *Non-terminals* which do not.
 To check the validity of a string we verify if it can be derived from the set of production rules.
 For example string "aaabbb" is valid under these production rules but "ababab" is not:
