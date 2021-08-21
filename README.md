@@ -17,7 +17,7 @@ But there is no way to produce "ababab".
 
 
 ### Chomsky normal form
-A context-free grammar is said to be in Chomsky normal form when all of it production rules are fo the form:
+A context-free grammar is said to be in Chomsky normal form when all of its production rules are fo the form:
 - A -> BC
 - A -> a
 where A, B and C are nonterminals and a is a terminal
