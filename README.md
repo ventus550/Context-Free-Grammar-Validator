@@ -24,7 +24,7 @@ A context-free grammar is said to be in Chomsky normal form when all of its prod
 where *A*, *B* and *C* are *Non-terminals* and *a* is a *Terminal*
 
 
-### Some extra details
+### Some technical details
 - Rules have to be placed in separate lines or be separated by spaces
 - Spaces before and after "->" operator are mandatory
 - `~` is reserved for serving the purpose of an arbitrary symbol (for example `A -> ~` means A can be transformed into any other symbol)
